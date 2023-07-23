@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <title>Marcelo Ruys</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="menu " id="menu">
+        <li>
+          <a href="#home">Sobre</a>
+        </li>
+        <li>
+          <a href="#about">Graduação</a>
+        </li>
+        <li>
+          <a href="#projeto">Projetos</a>
+        </li>
+        <li >
+          <a href="#tecnologia">Tecnologias</a>
+        </li>
+        <li class="icons">
+          <a href="https://www.linkedin.com/in/marcelorrodrigues/" target="_blank">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="https://github.com/marcelorruys" target="_blank">
+            <i class="bi bi-github"></i>
+          </a>
+        </li>
+      </ul>
+      <button class="mobile-responsive" id="btn-mobile">
+        <div class="hamburguer"></div>
+        <div class="hamburguer"></div>
+        <div class="hamburguer"></div>
+      </button>
+    </nav>
+    <main>
+      <!-- Home -->
+      <section class="container" id="home">
+        <div>
+          <div class="home">
+            <div class="content-home">
+              <h1>Marcelo Ruys</h1>
+              <h2>Desenvolvedor</h2>
+              <p>
+                Meu nome é Marcelo, tenho 17 anos, sou estudante do terceiro ano do ensino médio e formado no curso Técnico em Informática.
+                Desde sempre fui apaixonado pela área da tecnologia. No entanto é a área que eu quero continuar estudando e aprendendo cada vez mais.
+                Atualmente estou atuando como Aprendiz em Soluções Digitais e espero poder colocar meus estudos em prática ao mesmo tempo que eu possa adquirir novos conhecimentos.
+              </p>
+            </div>
+            <!--
+            <div class="img-home"></div> 
+            -->
+          </div>
+        </div>
+       
+      </section>
+      <!-- Sobre -->
+      <section class="container" id="about">
+        <div class="content-about">
+          <div class="graduation">
+            <h2>Graduações</h2>
+            <ul>
+              <li>
+                <span>Escola e Faculdade de Tecnologia Senai "Roberto Mange"</span>
+                Desenvolvimento de Sistemas
+                <span> 2023 </span>
+              </li>
+
+              <li>
+                <span>ETEC de Hortolândia</span>
+                Técnico em Informática
+                <span> 2023 </span>
+              </li>
+
+          </div>
+          <div class="graduation">
+            <h2>Cursos Extra</h2>
+            <ul>
+              <li>
+                <span>Udemy Brasil</span>
+                Curso de ASP .NET Core MVC - Criando um Site do Zero (NET 6)
+                <span> 2023 </span>
+              </li>
+              <li>
+                <span>Fundação Bradesco </span>
+                SEGURANÇA EM TECNOLOGIA DA INFORMAÇÃO
+                <span> 2023 </span>
+              </li>
+              <li>
+                <span>Udemy Brasil</span>
+                C# COMPLETO Programação Orientada a Objetos + Projetos
+                <span> 2023 </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Projetos -->
+      <section class="container" id="projeto">
+        <div class="projetos">
+          <h2>Projetos</h2>
+          <div class="grid-projetos">
+            <div class="desc">
+              <h4>EcommerceMvc</h4>
+              <p>
+                Projeto do curso Curso de ASP .NET
+                Core MVC - Criando um Site do Zero (NET 6), ministrado por
+                Macoratti. O EcommerceMvc é uma aplicação Web Mvc, seu modelo de
+                negócio consiste na criação de um site para vendas com registro
+                de produtos, registro de pedidos, área de administrador com
+                análise de informações das vendas e ferramentas de edição do
+                site.
+              </p>
+              <a
+                href="https://github.com/marcelorruys/EcommerceMvc"
+                target="_blank"
+                class="button"
+                >Repositório</a
+              >
+            </div>
+            <div>
+              <video
+                src="./static/EcommerceMvcREC.mp4"
+                controls
+                muted
+                alt="Projeto desenvolvido"
+              >
+            </div>
+          </div>
+
+
+          
+          <div class="grid-projetos">
+            <div class="left">
+              <div class="desc">
+                <h4>Sales Web Mvc</h4>
+                <p>
+                  Projeto do curso C# COMPLETO Programação Orientada a Objetos,
+                  ministrado por Nelio Alves. Sales Web Mvc é uma aplicação Web
+                  Mvc, onde o seu modelo de negócio consiste no gerenciamento de
+                  vendedores, setores e vendas.
+                </p>
+                <a
+                  href="https://github.com/marcelorruys/SalesWebMvc"
+                  class="button"
+                  target="_blank"
+                  >Repositório</a
+                >
+              </div>
+
+              <div>
+                <video
+                  src="./static/SalesWebMvcREC.mp4"
+                  controls
+                  muted
+                  alt="Projeto desenvolvido"
+                 
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-projetos">
+            <div class="desc">
+              <h4>Xadrez para console</h4>
+              <p>
+                Projeto do curso C# COMPLETO Programação Orientada a Objetos,
+                ministrado por Nelio Alves. O projeto consiste em um jogo de
+                xadrez para Console (CMD).
+              </p>
+              <a
+                href="https://github.com/marcelorruys/Projeto-Xadrez "
+                class="button"
+                target="_blank"
+                >Repositório</a
+              >
+            </div>
+            <div>
+              <video
+                src="./static/Jogo-XadrezREC.mp4"
+                controls
+                muted
+                alt="Projeto desenvolvido"
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Tecnologias -->
+      <section class="container" id="tecnologia">
+          <h2>Tecnologias</h2>
+          <div class="content-tecnologias">
+
+          <div class="tecnologias">
+            <div class="subtitle">
+              <h4>
+                <i class="devicon-csharp-plain" style="color: #B002F5;"></i>
+              </h4>
+            </div>
+          </div>
+
+          <div class="tecnologias">
+            <div class="subtitle">
+              <h4>
+                <i class="devicon-dotnetcore-plain" style="color: #B002F5;"></i>
+              </h4>
+            </div>
+          </div>
+          <div class="tecnologias">
+            <div class="subtitle">
+              <h4>
+                <i class="devicon-html5-plain-wordmark" style="color: #e3461a;"></i>
+              </h4>
+            </div>
+          </div>
+          <div class="tecnologias">
+            <div class="subtitle"> 
+              <h4>
+                <i class="devicon-bootstrap-plain" style="color:  #7011f5;"></i>
+              </h4> 
+            </div>
+          </div>
+          <div class="tecnologias">
+            <div class="subtitle">  
+              <h4>
+                <i class="devicon-css3-plain colored" style="color: #006bc0;"></i>
+              </h4> 
+            </div>
+          </div>  
+        </div>
+      </section>
+    </main>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

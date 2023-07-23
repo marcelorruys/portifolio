@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #0d96ff;
+  --secundary-color: #001980;
+  --dark: #080808;
+  --font-color: #9c9c9c;
+  --white: #ffffff;
+  --gray: #1b1b1b;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--white);
+  border-radius: 3px;
+}
