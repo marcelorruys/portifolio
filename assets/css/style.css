@@ -84,9 +84,9 @@ a i {
 }
 
 .img-home {
-  background: url(../../static/img/) no-repeat top left;
+  background: url(../../static/img/perfil\ -\ Copy.jpg) no-repeat top left;
   height: 500px;
-  width: 80%;
+  width: 50%;
   border-radius: 100%;
 }
 
